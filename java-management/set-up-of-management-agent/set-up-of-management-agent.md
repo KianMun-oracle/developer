@@ -141,6 +141,7 @@ This task is for the installation of Management Agent in an OCI Host(OCI Compute
       The JMS installer and configuration file can be removed from the machine.
       /<path-to-log>/JMSInstallScript/JMSInstallerLogs-<Datestamp>-<Timestamp>-<log-number>.log contains the install log.
       Agent is successfully installed and is running.
+
       ```
 
 ## Task 2: Install Management Agent on a non-OCI Host
@@ -205,6 +206,7 @@ This task is for the installation of Management Agent in a non-OCI host(e.g. on-
       The JMS installer and configuration file can be removed from the machine.
       /<path-to-log>/JMSInstallScript/JMSInstallerLogs-<Datestamp>-<Timestamp>-<log-number>.log contains the install log.
       Agent is successfully installed and is running.
+
      ```
 
 **On Windows (Non-OCI Host)**
@@ -240,6 +242,7 @@ There are two ways to install the agent:
      The JMS installer and configuration file can be removed from the machine.
      /<path-to-log>/JMSInstallScript/JMSInstallerLogs-<Datestamp>-<Timestamp>-<log-number>.log contains the install log.
      Agent is successfully installed and is running.
+
      ```
 
 **Option 2: Using the Command Line**
@@ -275,6 +278,7 @@ There are two ways to install the agent:
      The JMS installer and configuration file can be removed from the machine.
      /<path-to-log>/JMSInstallScript/JMSInstallerLogs-<Datestamp>-<Timestamp>-<log-number>.log contains the install log.
      Agent is successfully installed and is running.
+
      ```
 
 **On MacOS (Non-OCI Host)**
@@ -295,15 +299,17 @@ There are two ways to install the agent:
 
 4. If installation is successful, you'll see a message similar to the following:
 
-   ```
-   Agent was successfully registered using key <name-of-fleet>(ocid1.managementagentinstallkey.oc1.<region>.<some ocid hash>).
-   Instance has been assigned to JMS fleet <name-of-fleet>(ocid1.jmsfleet.oc1.<region>.<some ocid hash>).
-   A copy of this installation log can be found at /<path-to-log>/JMSInstallScript/JMSInstallScriptLogs-<Datestamp>-<Timestamp>-<log-number>.log
-   Removing the temporary files.
-   The JMS installer and configuration file can be removed from the machine.
-   /<path-to-log>/JMSInstallScript/JMSInstallerLogs-<Datestamp>-<Timestamp>-<log-number>.log contains the install log.
-   Agent is successfully installed and is running.
-   ```
+      ```
+      ...
+      Agent was successfully registered using key <name-of-fleet>(ocid1.managementagentinstallkey.oc1.<region>.<some ocid hash>).
+      Instance has been assigned to JMS fleet <name-of-fleet>(ocid1.jmsfleet.oc1.<region>.<some ocid hash>).
+      A copy of this installation log can be found at /<path-to-log>/JMSInstallScript/JMSInstallScriptLogs-<Datestamp>-<Timestamp>-<log-number>.log
+      Removing the temporary files.
+      The JMS installer and configuration file can be removed from the machine.
+      /<path-to-log>/JMSInstallScript/JMSInstallerLogs-<Datestamp>-<Timestamp>-<log-number>.log contains the install log.
+      Agent is successfully installed and is running.
+        
+      ```
 
 
 ## Task 3: Verify Management Agent Installation
