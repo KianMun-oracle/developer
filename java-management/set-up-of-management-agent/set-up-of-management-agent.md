@@ -90,7 +90,7 @@ This task is for the installation of Management Agent in an OCI Host(OCI Compute
 
 2. Connect to your instance using SSH.
 
-3. Navigate to the directory containing the agent installer files using the cd command. There is a `README.txt` in the folder. Read the `README.txt` for more details on installing the Managment Agent. 
+3. Navigate to the directory containing the agent installer files using the cd command. There is a `README.txt` in the folder. Read the `README.txt` for more details on installing the Management Agent. 
 
 4. There is a `installJMSAgent.sh` shell script in the folder. Run the shell script using the following command.
 
@@ -120,7 +120,7 @@ This task is for the installation of Management Agent in an OCI Host(OCI Compute
 
 2. Run Windows Powershell as administrator.
 
-3. Navigate to the directory containing the agent installer files using the cd command. There is a `README.txt` in the folder. Read the `README.txt` for more details on installing the Managment Agent. 
+3. Navigate to the directory containing the agent installer files using the cd command. There is a `README.txt` in the folder. Read the `README.txt` for more details on installing the Management Agent. 
 
 4. Enter the following command to run the installation script. The installation may take some time to complete.
 
@@ -184,7 +184,7 @@ This task is for the installation of Management Agent in a non-OCI host(e.g. on-
     ```
 2. Connect to your instance using SSH.
 
-3. Navigate to the directory containing the agent installer files using the cd command. There is a `README.txt` in the folder. Read the `README.txt` for more details on installing the Managment Agent. 
+3. Navigate to the directory containing the agent installer files using the cd command. There is a `README.txt` in the folder. Read the `README.txt` for more details on installing the Management Agent. 
 
 4. There is a `installJMSAgent.sh` shell script in the folder. Run the shell script using the following command.
 
@@ -251,7 +251,7 @@ There are two ways to install the agent:
 
 2. Run Windows Powershell as administrator.
 
-3. Navigate to the directory containing the agent installer files using the cd command. There is a `README.txt` in the folder. Read the `README.txt` for more details on installing the Managment Agent.
+3. Navigate to the directory containing the agent installer files using the cd command. There is a `README.txt` in the folder. Read the `README.txt` for more details on installing the Management Agent.
 
 
 4. To ensure you have the correct permissions to run the script, type Set-ExecutionPolicy RemoteSigned and answer A.
@@ -287,7 +287,7 @@ There are two ways to install the agent:
 
 1. Use the downloaded **Agent Installer** `jms_setup_<version-number>_<os-type>.tar.gz` and **configuration file** `JMS_agent_configuration.rsp` for MacOS. Ensure that the **Agent Installer** and **configuration file** are in the **same folder.**
 
-2. Navigate to the directory containing the agent installer files using the cd command. There is a `README.txt` in the folder. Read the `README.txt` for more details on installing the Managment Agent.
+2. Navigate to the directory containing the agent installer files using the cd command. There is a `README.txt` in the folder. Read the `README.txt` for more details on installing the Management Agent.
 
 3. Open terminal and run the following command.
 
